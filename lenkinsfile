@@ -1,0 +1,18 @@
+pipeline 
+{
+    agent any
+
+    stages 
+    {
+        stage('SCM checkout ') {
+            steps {
+                echo 'Checkout competed '
+            }
+        }
+         stage('Build ') {
+            steps {
+                echo 'Build  competed '
+            }
+        }
+    }
+}
